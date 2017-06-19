@@ -217,6 +217,6 @@ function igual(){
 	var d= document.getElementById("display").innerHTML;
 	var resultado=eval(d);
 
-	document.getElementById("display").innerHTML= resultado;
+	document.getElementById("display").innerHTML="="+ resultado;
 }
 
